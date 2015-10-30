@@ -44,7 +44,7 @@ class DirectorsController < ApplicationController
 
     @entry.save
 
-    redirect_to("http://localhost:3000/directors")
+    redirect_to("http://localhost:3000/directors/#{@entry.id}")
   end
 
 end
